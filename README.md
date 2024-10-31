@@ -1,5 +1,22 @@
-# Vue 3 + TypeScript + Vite
+# @allindevelopers/vue-local-scope
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Allows to reuse an expression that is repeating multiple times in a Vue Template
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+```vue
+<script setup lang="ts">
+import { LocalScope } from "@allindevelopers/vue-local-scope";
+</script>
+
+<template>
+	<LocalScope lorem="Lorem Ipsum Dolor Sit Amet" #default="{ lorem }">
+		<ol>
+			<li>{{ lorem }}</li>
+			<li>{{ lorem }}</li>
+			<li>{{ lorem }}</li>
+		</ol>
+	</LocalScope>
+</template>
+```
+
+> [!NOTE]  
+> Can be used in JSX but types are not infered

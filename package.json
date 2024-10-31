@@ -17,7 +17,8 @@
 	"scripts": {
 		"dev": "vite",
 		"build": "vue-tsc -b && vite build",
-		"preview": "vite preview"
+		"preview": "vite preview",
+		"test": "vue-tsc -b"
 	},
 	"peerDependencies": {
 		"vue": "^3.5.12"

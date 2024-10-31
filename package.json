@@ -30,7 +30,8 @@
 		"build": "vue-tsc -b && vite build && npm run generate-types",
 		"generate-types": "vue-tsc lib/vue-local-scope.ts --declaration --emitDeclarationOnly --outDir dist",
 		"preview": "vite preview",
-		"test": "vue-tsc -b"
+		"test": "vue-tsc -b",
+		"release": "npx np"
 	},
 	"peerDependencies": {
 		"vue": "^3.5.12"

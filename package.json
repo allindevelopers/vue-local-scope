@@ -14,6 +14,7 @@
 	"devDependencies": {
 		"@allindevelopers/prettier-config": "^1.0.0",
 		"@vitejs/plugin-vue": "^5.1.4",
+		"@vitejs/plugin-vue-jsx": "^4.0.1",
 		"prettier": "^3.3.3",
 		"typescript": "~5.6.2",
 		"vite": "^5.4.10",

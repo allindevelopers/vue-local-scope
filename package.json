@@ -12,7 +12,8 @@
 	"exports": {
 		".": {
 			"import": "./dist/vue-local-scope.js",
-			"require": "./dist/vue-local-scope.umd.cjs"
+			"require": "./dist/vue-local-scope.umd.cjs",
+			"types": "./dist/vue-local-scope.d.ts"
 		}
 	},
 	"repository": {

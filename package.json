@@ -8,6 +8,7 @@
 	],
 	"main": "./dist/vue-local-scope.umd.cjs",
 	"module": "./dist/vue-local-scope.js",
+	"types": "./dist/vue-local-scope.d.ts",
 	"exports": {
 		".": {
 			"import": "./dist/vue-local-scope.js",
@@ -26,7 +27,8 @@
 	],
 	"scripts": {
 		"dev": "vite",
-		"build": "vue-tsc -b && vite build",
+		"build": "vue-tsc -b && vite build && npm run generate-types",
+		"generate-types": "vue-tsc lib/vue-local-scope.ts --declaration --emitDeclarationOnly --outDir dist",
 		"preview": "vite preview",
 		"test": "vue-tsc -b"
 	},

@@ -8,7 +8,7 @@ export default defineConfig({
 	plugins: [vue(), vueJsx()],
 	build: {
 		lib: {
-			entry: resolve(__dirname, "lib/index.ts"),
+			entry: resolve(__dirname, "lib/vue-local-scope.ts"),
 			name: "VueLocalScope",
 			fileName: "vue-local-scope",
 		},

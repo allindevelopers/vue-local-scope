@@ -1,5 +1,5 @@
 import { defineComponent } from "vue";
-import { LocalScope } from "../lib";
+import { LocalScope } from "../lib/vue-local-scope";
 
 export default defineComponent((props: { lorem: string }) => {
 	return () => (

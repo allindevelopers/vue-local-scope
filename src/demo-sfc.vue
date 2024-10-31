@@ -1,5 +1,5 @@
 <script setup lang="ts" generic="T">
-import { LocalScope } from "../lib";
+import { LocalScope } from "../lib/vue-local-scope";
 
 defineProps<{ lorem: string }>();
 </script>

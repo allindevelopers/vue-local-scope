@@ -18,5 +18,9 @@ import { LocalScope } from "@allindevelopers/vue-local-scope";
 </template>
 ```
 
+With Full Type Completion
+
+<img width="397" alt="image" src="https://github.com/user-attachments/assets/7e38ec79-815c-455f-bec7-5e777114e3b0">
+
 > [!NOTE]  
 > Can be used in JSX but types are not infered

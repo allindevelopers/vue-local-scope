@@ -1,8 +1,19 @@
 {
-	"name": "vue-local-scope",
+	"name": "@allindevelopers/vue-local-scope",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
+	"files": [
+		"dist"
+	],
+	"main": "./dist/vue-local-scope.umd.cjs",
+	"module": "./dist/vue-local-scope.js",
+	"exports": {
+		".": {
+			"import": "./dist/vue-local-scope.js",
+			"require": "./dist/vue-local-scope.umd.cjs"
+		}
+	},
 	"scripts": {
 		"dev": "vite",
 		"build": "vue-tsc -b && vite build",
@@ -13,6 +24,7 @@
 	},
 	"devDependencies": {
 		"@allindevelopers/prettier-config": "^1.0.0",
+		"@types/node": "^22.8.5",
 		"@vitejs/plugin-vue": "^5.1.4",
 		"@vitejs/plugin-vue-jsx": "^4.0.1",
 		"prettier": "^3.3.3",

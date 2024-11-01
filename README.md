@@ -1,5 +1,7 @@
 # @allindevelopers/vue-local-scope
 
+> An implementation of [posva/vue-local-scope](https://github.com/posva/vue-local-scope) for Vue 3 and TypeScript support
+
 Allows to reuse an expression that is repeating multiple times in a Vue Template
 
 ```vue

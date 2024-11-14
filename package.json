@@ -35,7 +35,7 @@
 		"release": "npx np"
 	},
 	"peerDependencies": {
-		"vue": "^3.5.12"
+		"vue": "^3.2"
 	},
 	"devDependencies": {
 		"@allindevelopers/prettier-config": "^1.0.0",
@@ -45,7 +45,7 @@
 		"prettier": "^3.3.3",
 		"typescript": "~5.6.2",
 		"vite": "^5.4.10",
-		"vue": "^3.5.12",
+		"vue": "^3.2",
 		"vue-tsc": "^2.1.8"
 	},
 	"prettier": "@allindevelopers/prettier-config"
